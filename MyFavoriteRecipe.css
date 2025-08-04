@@ -5,12 +5,23 @@ header {
   text-align: center;
 }
 
+#PleasedChefLogo {
+  display: block;
+  margin-right: auto;
+  width: 200px;
+}
+
 main {
   background-color: #ffffff;
   max-width: 1000px;
   padding: 35px;
   margin: 40px auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main #PleasedChefLogo {
+  display: block;
+  margin: auto;
 }
 
 body {
@@ -32,7 +43,7 @@ body {
 }
 
 .recipe {
-  background-color: #f7f4f4;
+  background-color: #f1f1f1;
   width: 50%;
   padding: 15px;
   margin: 45px auto;
